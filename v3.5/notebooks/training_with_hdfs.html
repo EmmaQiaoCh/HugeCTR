@@ -5,8 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>HugeCTR training with HDFS example &mdash; Merlin HugeCTR  documentation</title><link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
     <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
-      <link rel="stylesheet" href="../_static/togglebutton.css" type="text/css" />
       <link rel="stylesheet" href="../_static/mystnb.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/togglebutton.css" type="text/css" />
   <!--[if lt IE 9]>
     <script src="../_static/js/html5shiv.min.js"></script>
   <![endif]-->
@@ -47,9 +47,6 @@
 <li class="toctree-l1"><a class="reference internal" href="../hugectr_core_features.html">Core Features</a></li>
 <li class="toctree-l1"><a class="reference internal" href="../hugectr_feature_details_intro.html">Features in Detail</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">Example Notebooks</a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="index.html#quickstart">Quickstart</a></li>
-<li class="toctree-l2"><a class="reference internal" href="index.html#notebook-list">Notebook List</a></li>
-<li class="toctree-l2"><a class="reference internal" href="index.html#system-specifications">System Specifications</a></li>
 <li class="toctree-l2"><a class="reference internal" href="ecommerce-example.html">Merlin ETL, training, and inference with e-Commerce behavior data</a></li>
 <li class="toctree-l2"><a class="reference internal" href="movie-lens-example.html">HugeCTR demo on Movie lens data</a></li>
 <li class="toctree-l2"><a class="reference internal" href="hugectr_criteo.html">Introduction to the HugeCTR Python Interface</a></li>
@@ -116,7 +113,7 @@ documentation.</p>
 <h2>Hadoop Installation and Configuration<a class="headerlink" href="#hadoop-installation-and-configuration" title="Permalink to this headline"></a></h2>
 <div class="section" id="download-and-install-hadoop">
 <h3>Download and Install Hadoop<a class="headerlink" href="#download-and-install-hadoop" title="Permalink to this headline"></a></h3>
-<ol>
+<ol class="arabic">
 <li><p>Download a JDK:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>wget https://download.java.net/java/GA/jdk16.0.2/d4a915d82b4c4fbb9bde534da945d746/7/GPL/openjdk-16.0.2_linux-x64_bin.tar.gz
 tar -zxvf openjdk-16.0.2_linux-x64_bin.tar.gz
@@ -211,7 +208,7 @@ worker4
 </div>
 <div class="section" id="start-hdfs">
 <h3>Start HDFS<a class="headerlink" href="#start-hdfs" title="Permalink to this headline"></a></h3>
-<ol>
+<ol class="arabic">
 <li><p>Enable ssh connection:</p>
 <div class="highlight-bash notranslate"><div class="highlight"><pre><span></span>ssh-keygen -t rsa -P <span class="s1">&#39;&#39;</span> -f ~/.ssh/id_rsa
 cat ~/.ssh/id_rsa.pub &gt;&gt; ~/.ssh/authorized_keys
@@ -550,10 +547,6 @@ BinaryCrossEntropyLoss                  add1                          loss
       <dt>Tags</dt>
       <dd><a href="training_with_hdfs.html">v3.5</a></dd>
       <dd><a href="../../v3.6/index.html">v3.6</a></dd>
-    </dl>
-    <dl>
-      <dt>Branches</dt>
-      <dd><a href="../../master/index.html">master</a></dd>
     </dl>
   </div>
 </div><script>
