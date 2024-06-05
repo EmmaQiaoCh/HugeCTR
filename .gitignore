@@ -65,3 +65,6 @@ hps_tf/merlin_hps.egg-info/
 hps_torch/_skbuild
 hps_torch/dist/
 hps_torch/merlin_hps.egg-info/
+.gitlab/
+ci/
+.gitlab-ci.yml
